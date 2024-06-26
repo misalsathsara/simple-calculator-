@@ -92,7 +92,7 @@
             <button onclick="addDisplay('0')">0</button>
             <button onclick="addDisplay('.')">.</button>
             <button onclick="calculate()">=</button>
-            <button onclick="clear()" class="operatorBtn">C</button>
+            <button onclick="clearDisplay()" class="operatorBtn">C</button>
         </div>
     </div>
 
@@ -103,7 +103,7 @@
             display.value += input;
         }
 
-        function clear(){
+        function clearDisplay(){
             display.value = "";
         }
 
